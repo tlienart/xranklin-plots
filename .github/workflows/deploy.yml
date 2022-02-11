@@ -39,6 +39,7 @@ jobs:
       - run: |
              sudo apt-get update -y
              sudo apt-get install -y qt5-default
+             sudo apt-get xvfb
       # - run: sudo apt install libxt6 libxrender1 libxext6 libgl1-mesa-glx libqt5widgets5
 
       # Website build
