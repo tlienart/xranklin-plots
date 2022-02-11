@@ -36,7 +36,7 @@ jobs:
           version: 1.7
 
       # GR recommended (plots backend)
-      - run: sudo apt install libxt6 libxrender1 libxext6 libgl1-mesa-glx libqt5widgets5
+      # - run: sudo apt install libxt6 libxrender1 libxext6 libgl1-mesa-glx libqt5widgets5
 
       # Website build
       - run: julia -e '
